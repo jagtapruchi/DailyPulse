@@ -62,7 +62,7 @@ const AppContent = () => {
 };
 
 const App = () => (
-  <Router>
+  <Router basename="/DailyPulse">
     <AppContent />
   </Router>
 );
